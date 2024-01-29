@@ -22,7 +22,8 @@ print(timestamp)
 ### 3. Calculate the True anomaly from the mean anomaly
 $$M = M0 + n(t - t_p) $$
 Obtain $E$ from the following equation:
-$$M = E - e \sin(E) $$
+$$M = E - e \sin(E)$$ 
+solve by Newton-Raphson
 Use $E$ to calculate the true anomaly $\nu$
 $$\nu = \tan^{-1}\left[ { \frac{\sqrt{1 - e^2} \sin{E}}{\cos{E} - e}} \right] $$ 
 
