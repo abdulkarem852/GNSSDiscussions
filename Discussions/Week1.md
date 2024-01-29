@@ -7,7 +7,9 @@ Given the time (and other data) and user position, calculate the position of the
 2. User Position: 22.3085316N, 39.104593E
 
 ### 1. Convert Time to UTC then to GPS Time (Week)
-how to convert
+how to convert:
+converting from a certain timezone to UTC is just subtracting the timezone. Note that, if the result is negative we have to add 24 to get the time and subtract a day.
+$$t_{utc} = t_{local} - t_{z}$$
 ### 2. Obtain YUMA Files for the GPS Week and Read Yuma Files
 
 ### 3. Calculate the True anomaly from the mean anomaly
