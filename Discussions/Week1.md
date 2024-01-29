@@ -25,7 +25,7 @@ Obtain $E$ from the following equation:
 $$M = E - e \sin(E)$$ 
 solve by Newton-Raphson
 Use $E$ to calculate the true anomaly $\nu$
-$$\nu = \tan^{-1}\left[ { \frac{\sqrt{1 - e^2} \sin{E}}{\cos{E} - e}} \right] $$ 
+$$\nu = \tan^{-1}\left[{\frac{\sqrt{1 - e^2} \sin{E}}{\cos{E} - e}} \right] $$ 
 
 
 ### 4. Calculate the position of the satellites (at least GPS)
